@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="book-storePU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entities.Onlinebill</class>
+    <class>entities.Cart</class>
+    <class>entities.Account</class>
+    <class>entities.Feedback</class>
+    <class>entities.Order1</class>
+    <class>entities.Transfer</class>
+    <class>entities.Onsitebill</class>
+    <class>entities.Bookstorecard</class>
+    <class>entities.Bill</class>
+    <class>entities.Contactinfor</class>
+    <class>entities.Workschedule</class>
+    <class>entities.Shippingaddress</class>
+    <class>entities.EmployeeWorkschedule</class>
+    <class>entities.Customercarestaff</class>
+    <class>entities.Onlineseller</class>
+    <class>entities.Wishlist</class>
+    <class>entities.Seller</class>
+    <class>entities.Author</class>
+    <class>entities.Branchstore</class>
+    <class>entities.Category</class>
+    <class>entities.Onlineorder</class>
+    <class>entities.Address</class>
+    <class>entities.Publisher</class>
+    <class>entities.Qrcode</class>
+    <class>entities.Customer</class>
+    <class>entities.Notification</class>
+    <class>entities.Manager</class>
+    <class>entities.Employee</class>
+    <class>entities.Promotion</class>
+    <class>entities.Voucher</class>
+    <class>entities.Importingrecord</class>
+    <class>entities.Allowance</class>
+    <class>entities.Payment</class>
+    <class>entities.Item</class>
+    <class>entities.Importingstaff</class>
+    <class>entities.Onsiteseller</class>
+    <class>entities.Onsiteorder</class>
+    <class>entities.Shipping</class>
+    <class>entities.Cash</class>
+    <class>entities.Person</class>
+    <class>entities.Supplier</class>
+    <class>entities.Book</class>
+    <class>entities.Membershiptype</class>
+    <class>entities.Fullname</class>
+    <class>entities.Post</class>
+    <class>entities.Orderline</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/book_store?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123123a@"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Book Store | Register</title>
+        <style>
+            div{
+                width: 20%;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="margin-left: 150px">Register</h1>
+        <form action="register" method="POST">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username">
+                <br>
+                <label>Password</label>
+                <input type="password" name="password">                
+            </div>
+            <br>
+            <div>
+                <label>FirstName</label>
+                <input type="text" name="firstname">
+                <br>
+                <label>MiddleName</label>
+                <input type="text" name="middlename">
+                <br>
+                <label>LastName</label>
+                <input type="text" name="lastname">                
+            </div>
+            <br>
+            <div>
+                <label>IDCard</label>
+                <input type="text" name="idcard"> 
+                <br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="3rd">3rd
+                <br>
+                <br>
+                <label>Date Of Birth</label>
+                <input type="date" name ="dateofbirth" >
+            </div>
+            <br>
+            <div>
+                <label>PhoneNumber</label>
+                <input type="text" name="phonenumber">
+                <br>
+                <label>Email</label>
+                <input type="text" name="email">
+                <br>
+                <br>
+                <label style="margin-right: 70px">Address</label>
+                <br>
+                <label>City</label>
+                <input type="text" name="city"> 
+                <br>
+                <label>District</label>
+                <input type="text" name="district"> 
+                <br>
+                <label>Town</label>
+                <input type="text" name="town">  
+                <br>
+                <label>Description</label>
+                <input type="text" name="desciption">                
+            </div>
+            <br>
+            <input type="submit" style="margin-left: 200px">
+        </form>
+    </body>
+</html>
