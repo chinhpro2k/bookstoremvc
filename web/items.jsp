@@ -87,7 +87,7 @@
                             <label class="itemPrice" style="text-decoration: underline"><%= currencyVN.format(item.getSalePrice())%> </label>
                             <input name="ItemID" hidden="true" value="<%= item.getId()%>">
                             <input name="CustomerID" hidden="true" value="<%= session.getAttribute("customerID")%>">
-                            <input type="submit" value="Add to Cart" style="float: right;">
+                            <input type="submit" value="Add to Cart" style="float: right;background-color: #FFFFFF;border: 1px solid red;padding: 6px 8px;border-radius: 8px;cursor: pointer">
                         </form>  
                     </div>
                     <div style="width: 50%; height: 100%; float: left">&nbsp;</div>
